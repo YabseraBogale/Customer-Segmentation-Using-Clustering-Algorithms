@@ -1,14 +1,14 @@
-Context
-In today’s competitive world, it is crucial to understand customer behavior and 
-categorize customers based on their demography and buying behavior. 
-This is a critical aspect of customer segmentation that allows marketers to better 
-tailor their marketing efforts to various audience subsets in terms of promotional,
-marketing and product development strategies.
+#Context
+#In today’s competitive world, it is crucial to understand customer behavior and 
+#categorize customers based on their demography and buying behavior. 
+#This is a critical aspect of customer segmentation that allows marketers to better 
+#tailor their marketing efforts to various audience subsets in terms of promotional,
+#marketing and product development strategies.
 
-Objective
-This article demonstrates the concept of segmentation of a customer data set from an e-commerce site using k-means clustering in python. 
-The data set contains the annual income of ~300 customers and their annual spend on an e-commerce site.
- We will use the k-means clustering algorithm to derive the optimum number of clusters and understand the underlying customer segments based on the data provided.
+#Objective
+#This article demonstrates the concept of segmentation of a customer data set from an e-commerce site using k-means clustering in python. 
+#The data set contains the annual income of ~300 customers and their annual spend on an e-commerce site.
+#We will use the k-means clustering algorithm to derive the optimum number of clusters and understand the underlying customer segments based on the data provided.
  
 #Load the required packages
 import numpy as np
