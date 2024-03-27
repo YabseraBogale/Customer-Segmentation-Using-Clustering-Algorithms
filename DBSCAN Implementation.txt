@@ -1,0 +1,10 @@
+DBSCAN clustering algorithm
+DBSCAN stands for density-based spatial clustering of applications with noise. It's a density-based clustering algorithm, unlike k-means.
+
+This is a good algorithm for finding outliners in a data set. It finds arbitrarily shaped clusters based on the density of data points in different regions. It separates regions by areas of low-density so that it can detect outliers between the high-density clusters.
+
+This algorithm is better than k-means when it comes to working with oddly shaped data.
+
+DBSCAN uses two parameters to determine how clusters are defined: minPts (the minimum number of data points that need to be clustered together for an area to be considered high-density) and eps (the distance used to determine if a data point is in the same area as other data points).
+
+Choosing the right initial parameters is critical for this algorithm to work.
