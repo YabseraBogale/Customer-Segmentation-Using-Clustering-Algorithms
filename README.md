@@ -1,6 +1,6 @@
 # Customer-Segmentation-Using-Clustering-Algorithms
 
-#installs
+#install
 
 
 pip install pandas pyspark
