@@ -19,3 +19,17 @@ silhouette_score(X_train_norm, kmeans.labels_, metric='euclidean')
 K = range(2, 8)
 fits = []
 score = []
+
+for k in K:
+    # train the model for current value of k on training data
+    model = KMeans(n_clusters = k, random_state = 0, n_init='auto').fit(X_train_norm)
+
+    # append the model to fits
+    fits.append(model)
+
+    # Append the silhouette score to scores
+    score.append(silhouette_score(X_train_norm, model.labels_, metric='euclidean'))
+
+sns.scatterplot(data = X_train, x = 'longitude', y = 'latitude', hue = fits[0].labels_)
+sns.scatterplot(data = X_train, x = 'longitude', y = 'latitude', hue = fits[2].labels_)
+sns.scatterplot(data = X_train, x = 'longitude', y = 'latitude', hue = fits[2].labels_)
