@@ -8,5 +8,3 @@ This algorithm is better than k-means when it comes to working with oddly shaped
 DBSCAN uses two parameters to determine how clusters are defined: minPts (the minimum number of data points that need to be clustered together for an area to be considered high-density) and eps (the distance used to determine if a data point is in the same area as other data points).
 
 Choosing the right initial parameters is critical for this algorithm to work.
-
-Choosing the right initial parameters is critical for this algorithm to work.
